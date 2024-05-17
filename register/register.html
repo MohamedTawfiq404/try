@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Exo", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #d4cdb4;
+}
+
+header .navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+}
+header .navbar .left i{
+    color: #081c41;
+    font-size: small;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+header .navbar .left a{
+    color: #081c41;
+    text-decoration: none;
+    font-size: x-small; 
+    cursor:default;
+}
+header .navbar .left a:hover{
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+header .navbar .right a{
+    color: #081c41;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: x-small;
+    font-family: sans-serif;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+header .navbar .right a:hover{
+    color: #f3f1ea;
+    background-color: #081c41;
+}
+header .navbar .right i{
+    margin-right: 5px;
+}
+.form{
+    margin-top: 30px;
+    margin-left: 5px;
+    border:1px solid #081c41 ;
+    border-radius: 20px;
+    width: 200px;
+    height: 270px;
+}
+input{
+    padding: 3px 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid #081c41;
+    border-radius: 20px;
+    color: #081c41;
+}
+input:hover{
+    background-color: #081c41;
+    color: #f3f1ea;
+}
+
+.form #submit{
+    font-size: xx-small;
+    padding: 3px;
+    color: #081c41;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.form #submit:hover{
+    background-color: #081c41;
+    color: #f3f1ea;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+
+             <div class="left">
+                 <a href="#"><i class="fa-solid fa-store"></i> Family Store</a>
+                
+              </div>
+              <div class="right">
+                  <a href="/index.html"><i class="fa-solid fa-house"></i>Home</a>
+                  <a href="../sign/signin.html"><i class="fa-solid fa-right-to-bracket"></i>Sign in</a>                
+             </div>
+        </div>
+
+        </header>
+
+    <div class="form">
+
+        <form action="#">
+            <input type="text" name="name" id="name" placeholder="Your first name" required minlength="9" maxlength="12">
+            <input type="text" name="name" id="name" placeholder="Your last name" required minlength="9" maxlength="12">
+            <input type="text" name="phnenumber" id="phnenumber" placeholder="Your phone number">
+            <input type="email" name="email" id="email" placeholder="E-mail address">
+            <input type="password" name="password" id="password" placeholder="Your Password" required >
+            <input type="submit" value="regist" id="submit">
+            
+        </form>
+    </div>
+    
+</body>
+</html>

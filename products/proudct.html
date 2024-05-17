@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    font-family: "Exo", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #d4cdb4;
+}
+header .navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+}
+header .navbar .left i{
+    color: #081c41;
+    font-size: small;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+header .navbar .left a{
+    color: #081c41;
+    text-decoration: none;
+    font-size: x-small; 
+    cursor:default;
+}
+header .navbar .left a:hover{
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+header .navbar .right a{
+    color: #081c41;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: x-small;
+    font-family: sans-serif;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+header .navbar .right a:hover{
+    color: #f0ebda;
+    background-color: #081c41;
+}
+header .navbar .right i{
+    margin-right: 5px;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container .product{
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+.container .product a{
+    text-decoration: none;
+    color: #081c41;
+}
+.container .product img{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    margin: 10px;
+    opacity: 1;
+    transition: 0.2s ease-in;
+}
+.container .product img:hover{
+    opacity:0.7;
+}
+    </style>
+</head>
+<body>
+    <header>
+            
+        <div class="navbar">
+            
+                <div class="left">
+                    <a href="#"><i class="fa-solid fa-store"></i> Family Store</a>
+                    
+                </div>
+                <div class="right">
+                    <a href="/index.html"><i class="fa-solid fa-house"></i>Home</a>
+                    <a href="../sign/signin.html"><i class="fa-solid fa-right-to-bracket"></i>Sign in</a>
+                    <a href="../register/register.html"><i class="fa-solid fa-user-plus"></i>Register</a>
+                    
+                </div>
+            </div>
+
+    </header>
+
+    <div class="container">
+        
+        <div class="product">
+            <a href="#"><img src="../img/electrical devices.jpg" alt="Electrical devices" >
+            <h3>Electrical devices</h3>
+            </a>
+        </div>
+
+        <div class="product">
+            <a href="#"><img src="../img/Cooking utensils.jpg" alt="Cooking utensils">
+            <h3>Cooking Utensils</h3>
+            </a>
+        </div>
+
+        <div class="product">
+            <a href="#"><img src="../img/WristWatches.webp" alt="WristWatches">
+            <h3>WristWatches</h3>
+            </a>
+        </div>
+
+         <div class="product">
+             <a href="#"> <img src="../img/phones.jpg" alt="phones">
+             <h3>Phones</h3>
+             </a>
+         </div>
+     
+         <div class="product">
+             <a href="#"><img src="../img/Clothes.jpg" alt="Clothes">
+             <h3>Clothes</h3>
+             </a>
+         </div>
+
+         <div class="product">
+            <a href="#"><img src="../img/Sports Tools.jpg" alt="Sports Tools">
+            <h3>Sports Tools</h3>
+            </a>
+         </div>
+            
+         <div class="product">
+                <a href="#"><img src="../img/perfumes.jpg" alt="Perfumes">
+                <h3>Perfumes</h3>
+                </a>
+         </div>
+
+         <div class="product">
+             <a href="#"><img src="../img/makeup.avif" alt="Makeup">
+             <h3>Makeup</h3>
+             </a>
+         </div>
+
+         <div class="product">
+             <a href="#"><img src="../img/Accessories.jpeg" alt="Accessories">
+             <h3>Accessories</h3>
+             </a>
+         </div>
+
+    </div>
+
+    
+</body>
+</html>
